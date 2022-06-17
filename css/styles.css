@@ -1,0 +1,247 @@
+:root {
+    --font-color-main: #212121;
+    --font-color-second: #757575;
+    --color-accent: #2196F3;
+    --color-basic: #ffffff;
+
+    --main-font: "Roboto";
+
+}
+
+/* Common styles */
+
+body {
+    font-family: var(--main-font), sans-serif;
+    color: var(--font-color-main);
+    /* check this */
+    font-size: 14px;  
+    background-color: var(--color-basic);
+    letter-spacing: 0.03em;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+/* Header + footer */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: var(--color-accent);
+}
+
+.accent-logo-footer {
+    color: var(--color-basic);
+}
+
+.accent-logo-header {
+    color: var(--font-color-main);
+}
+
+.nav {
+
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--font-color-main)
+}
+
+.contact {
+
+        font-weight: 500;
+        line-height: 1.14;
+        color: var(--font-color-second);
+        font-style: normal;
+}
+
+.address {
+    
+        font-weight: 400;
+        line-height: 1.14;
+        color: var(--color-basic);
+        font-style: normal;
+}
+
+.contact:hover,
+.contact:focus,
+.nav:hover,
+.nav:focus {
+    color: var(--color-accent);
+}
+
+.footer {
+    background-color: #2F303A;
+}
+/* Main portfolio */    
+
+.main-button {
+    font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;    
+        text-align: center;
+        
+        
+        border-width: 0;
+        
+        
+        background-color: #F5F4FA;
+        
+        cursor: pointer;
+
+}
+
+.active {
+    color: var(--color-basic);
+    background-color: var(--color-accent);
+}
+
+.main-button:hover {
+    color: var(--color-basic);
+    background-color: var(--color-accent);
+}
+
+.current-link {
+    color: var(--color-accent);
+            }
+
+
+.head-example {
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+    
+        letter-spacing: 0.06em;
+    
+        
+}
+
+
+.description {
+   
+        font-size: 16px;
+        line-height: 1.88;
+        
+    
+        color: var(--font-color-second);
+}
+
+/* Main Studio */
+
+.hero {
+    background-color: #2F303A;;
+}
+
+.hero-head {
+font-family: var(--color-basic);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--color-basic);
+}
+
+.hero-btn {
+
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: 0;
+
+    color: var(--color-basic);
+    background-color: var(--color-accent);
+ 
+    cursor: pointer;
+}
+
+
+.section-tittle {
+    
+
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        
+    
+        
+}
+
+.adv-head {
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+  
+    text-transform: uppercase;
+
+   
+}
+
+.adv-descr {
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    
+    
+    color: var(--font-color-second);
+
+}
+
+.team-member {
+    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+       
+        text-align: center;
+       
+}
+
+.member-descr {
+
+    
+    font-size: 16px;
+    line-height: 1;
+
+    text-align: center;
+
+    color: var(--font-color-second);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
