@@ -53,6 +53,11 @@ img {
 }
 /* Header + footer */
 
+.header {
+border-bottom: 1px solid #ececec;
+}
+  
+
 .header-container {
     display: flex;
     align-items: center;
@@ -167,10 +172,7 @@ img {
    
 }
 
-/* .footer-wrap {
-    display: flex;
-    flex-direction: column;
-} */
+
 
 .contact-footer-item:not(:last-child) {
     margin-bottom: 9px;
@@ -293,6 +295,7 @@ img {
 .portfolio-text-wrap {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 /* Main Studio */
