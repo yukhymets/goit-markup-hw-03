@@ -302,7 +302,7 @@ border-bottom: 1px solid #ececec;
 .portfolio-card {
     margin-right: 30px;
     margin-bottom: 30px;
-    width: 370px;
+    
     background-color: var(--main-white);
 }
 
